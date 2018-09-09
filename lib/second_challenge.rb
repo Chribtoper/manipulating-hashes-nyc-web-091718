@@ -14,5 +14,5 @@ collection.collect do |i|
     array.push(r)
   end
 end
-
+array
 end
