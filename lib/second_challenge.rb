@@ -7,10 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-collection = groceries.collect do |i|
-  i.collect do |x|
-    x.values
-  end
+collection = []
+groceries.collect do |i|
+  collection.push(i.values)
 end
 
 
