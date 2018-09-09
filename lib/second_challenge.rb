@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
 collection = []
 groceries.collect do |i|
-  collection.push(i.values)
+  collection.push(i.values_at)
 end
 
 
