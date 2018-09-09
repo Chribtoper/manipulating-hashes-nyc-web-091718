@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-basket = gloceries.values
+gloceries.values
 
 
 end
