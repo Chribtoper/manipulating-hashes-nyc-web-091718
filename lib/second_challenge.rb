@@ -7,8 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-collection = []
-groceries.values
+collection = groceries.values
+collection.splice([,])
 
 
 end
