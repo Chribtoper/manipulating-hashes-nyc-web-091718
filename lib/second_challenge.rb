@@ -7,8 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-groceries.collect do [x]
-  x.values
+groceries.collect do |value|
+  value.values
 end
 
 
