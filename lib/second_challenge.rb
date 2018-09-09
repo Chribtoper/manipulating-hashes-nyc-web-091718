@@ -11,6 +11,5 @@ collection = groceries.values
 array = []
 collection.collect do |i|
   i.collect do |r|
-    array.push(r)
   end
 end
