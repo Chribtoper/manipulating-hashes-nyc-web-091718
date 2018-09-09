@@ -8,7 +8,9 @@ def second_challenge
 
   #code your solution here!
 collection = groceries.values
-collection.values
-
-
+array = []
+collection.collect do |i|
+  i.collect do |r|
+    array.push(r)
+  end 
 end
